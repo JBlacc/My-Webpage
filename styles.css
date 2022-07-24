@@ -18,6 +18,22 @@
     color: rgba(0, 0, 0, 0.674);
 }
 
+.home-page-pic-container{
+    margin: 3px 5px 2px 5px;
+    border: 3px solid white;
+    height: 525px;
+    display: grid;
+    grid-template-rows: 25% 50%;
+    grid-template-columns: 25% 50% 25%;
+    justify-items: center;
+    align-items: center;
+}
+
+.about-me-container{
+    margin: 3px 5px 2px 5px;
+    border: 3px solid white;
+}
+
 .home-link, .home-page.html, .contact-link, .contact.html{
     width: 110px;
     height: 20px;
@@ -25,17 +41,6 @@
     padding-top: 5px;
     padding-left: 5px;
     text-shadow: 3px 3px 5px rgba(79, 76, 76, 0.5);
-}
-
-.home-page-pic-container{
-    margin: 3px 5px 2px 5px;
-    display: grid;
-    grid-template-rows: 25% 50%;
-    grid-template-columns: 25% 50% 25%;
-    height: 525px;
-    border: 3px solid white;
-    justify-items: center;
-    align-items: center;
 }
 
 .pic-header{
@@ -50,20 +55,14 @@
 }
 
 
-.about-me-container{
-    border: 3px solid white;
-    margin: 2px 5px 3px 5px;
-    height: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.about-me-header, .description{
+
 }
 
-.contact-me{
-    display: flex;
+.contact-me{}
+
+.phone .email{
+    display: flexbox;
     flex-direction: row;
-    height: 500px;
-    border: 3px solid white;
-    margin: 2px 5px 3px 5px;
-    justify-content: center;
 }
