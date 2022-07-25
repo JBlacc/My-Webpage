@@ -1,8 +1,8 @@
-MY Simple Personal Website 
+My Simple Personal Website 
 
 This is a basic website built using only HTML and CSS 
 
-![read-me-screenshot.jpg]
+![](my-pics/pics/read-me-screenshot.jpg)
 
 Summary
 
