@@ -1,7 +1,7 @@
 
 
 /* Home Page layout */
-
+/* i used the background color to create the line border and then created the background of each area with the lightgray */
 
 *{
     background-color: rgba(0, 0, 0, 0.592); 
@@ -27,12 +27,10 @@
     font-size: 21px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: rgba(0, 0, 0, 0.674);
 }
 
-a:hover{ color: rgb(222, 15, 15);}
-a:visited{ color: rgba(0, 0, 0, 0.674)}
-a:active{color: rgba(0, 0, 0, 0.674)}
+a{text-decoration: none;}
+a:hover{ color: rgba(190, 25, 25, 0.991);}
 
 .home-page-pic-container{
     display: grid;
@@ -60,11 +58,12 @@ a:active{color: rgba(0, 0, 0, 0.674)}
     padding: 10px;
     padding-top: 5px;
     padding-left: 15px;
+    color: rgba(0, 0, 0, 0.819);
     text-shadow: 3px 3px 5px rgba(79, 76, 76, 0.5);
+
 }
 
 .pic-header{
-    font-weight: bold;
     font-size: 55px;
     text-shadow: 3px 3px 5px rgba(79, 76, 76, 0.369);
 }
@@ -95,12 +94,13 @@ a:active{color: rgba(0, 0, 0, 0.674)}
 
 
 /* Contact Me page layout */
-/* nav-bar settings listed on home page layout */
+/* nav-bar settings listed in home page layout */
 
 .contact-me-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 17rem;
     margin: 3px 5px 2px 5px;
     border: 3px solid white;
@@ -115,7 +115,6 @@ a:active{color: rgba(0, 0, 0, 0.674)}
 }
 
 .contact-me-header{
-    padding-top: 45px;
     padding-bottom: 30px;
     font-weight: bold;
     font-size: 1.5rem;
@@ -131,7 +130,7 @@ a:active{color: rgba(0, 0, 0, 0.674)}
     width: 35vw;
 }
 
-.in-car-pic{
+.gordo-pic{
     border-left: 3px solid white;
     border-right: 3px solid white;
     width: 25vw;
