@@ -1,43 +1,57 @@
+
+
 /* Home Page layout */
 
+
 *{
-    background-color: lightgray;    
+    background-color: rgba(0, 0, 0, 0.592); 
+}
+
+.contact-nav-bar, .home-nav-bar,.contact-link, .home-link, .home-page-pic-container, .about-me-container, .pic-header, .about-me, .description, .contact-me-container, .contact-me-header, .phone, .email, .phone{
+    background: lightgray;
+}
+
+.contact-nav-bar, .home-nav-bar, .home-page-pic-container, .about-me-container, .contact-me-container, .pics-container{
+    width: auto;
 }
 
 .contact-nav-bar, .home-nav-bar{
-
-    border: 3px solid white;
-    margin: 2px 5px 3px 5px;
-    height: 75px;
-    font-size: 21px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    align-content: center;
+    padding-left: 20px;
+    height: 85px;
     list-style: none;
+    margin: 3px 5px 2px 5px;
+    border: 3px solid white;
+    font-size: 21px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.674);
 }
 
+a:hover{ color: rgb(222, 15, 15);}
+a:visited{ color: rgba(0, 0, 0, 0.674)}
+a:active{color: rgba(0, 0, 0, 0.674)}
+
 .home-page-pic-container{
-    margin: 3px 5px 2px 5px;
-    border: 3px solid white;
-    height: 525px;
     display: grid;
-    grid-template-rows: 25% 50%;
+    grid-template-rows: 35% 50%;
     grid-template-columns: 25% 50% 25%;
     justify-items: center;
     align-items: center;
+    height: 600px;
+    margin: 3px 5px 2px 5px;
+    border: 3px solid white;
 }
 
 .about-me-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 220px;
     margin: 3px 5px 2px 5px;
     border: 3px solid white;
-    height: 150px;
 }
 
 .home-link, .home-page.html, .contact-link, .contact.html{
@@ -45,7 +59,7 @@
     height: 20px;
     padding: 10px;
     padding-top: 5px;
-    padding-left: 5px;
+    padding-left: 15px;
     text-shadow: 3px 3px 5px rgba(79, 76, 76, 0.5);
 }
 
@@ -55,8 +69,8 @@
     text-shadow: 3px 3px 5px rgba(79, 76, 76, 0.369);
 }
 
-.pic-at-river{
-    width: 300px;
+.selfie{
+    width: 250px;
     border-radius: 75%;
     box-shadow: 0 0 25px rgb(0, 0, 0);
 }
@@ -70,6 +84,7 @@
 }
 
 .description{
+    width: 101ch;
     padding-top: 5px;
     font-size: 1.2rem;
 }
@@ -80,25 +95,50 @@
 
 
 /* Contact Me page layout */
+/* nav-bar settings listed on home page layout */
 
 .contact-me-container{
-    margin: 3px 5px 2px 5px;
-    border: 3px solid white;
-    align-items: center;
-    height: 150px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    height: 17rem;
+    margin: 3px 5px 2px 5px;
+    border: 3px solid white;
+}
+
+.pics-container{
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    margin: 3px 5px 2px 5px;
+    border: 3px solid white;
 }
 
 .contact-me-header{
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding-top: 45px;
+    padding-bottom: 30px;
     font-weight: bold;
     font-size: 1.5rem;
     text-shadow: 3px 3px 5px rgba(79, 76, 76, 0.5);
 }
 
 .phone, .email{
-    padding: 4px;
+    padding-top: 20px;
     font-weight: 500;
 }
+
+.gotti-pic{
+    width: 35vw;
+}
+
+.in-car-pic{
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    width: 25vw;
+}
+
+.diamond-pic{
+    width: 40vw;
+}
+
+
