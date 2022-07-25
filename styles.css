@@ -1,6 +1,9 @@
 
 
 /* Home Page layout */
+
+
+
 /* i used the background color to create the line border and then created the background of each area with the lightgray below it*/
 
 *{
@@ -94,6 +97,8 @@ a:hover{ color: rgba(190, 25, 25, 0.991);}
 
 
 /* Contact Me page layout */
+
+
 /* nav-bar settings listed in home page layout */
 
 .contact-me-container{
