@@ -1,3 +1,5 @@
+/* Home Page layout */
+
 *{
     background-color: lightgray;    
 }
@@ -30,8 +32,12 @@
 }
 
 .about-me-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 3px 5px 2px 5px;
     border: 3px solid white;
+    height: 150px;
 }
 
 .home-link, .home-page.html, .contact-link, .contact.html{
@@ -46,6 +52,7 @@
 .pic-header{
     font-weight: bold;
     font-size: 55px;
+    text-shadow: 3px 3px 5px rgba(79, 76, 76, 0.369);
 }
 
 .pic-at-river{
@@ -54,15 +61,44 @@
     box-shadow: 0 0 25px rgb(0, 0, 0);
 }
 
-
-
-.about-me-header, .description{
-
+.about-me{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 3px 3px 5px rgba(79, 76, 76, 0.5);
 }
 
-.contact-me{}
+.description{
+    padding-top: 5px;
+    font-size: 1.2rem;
+}
 
-.phone .email{
-    display: flexbox;
-    flex-direction: row;
+
+
+
+
+
+/* Contact Me page layout */
+
+.contact-me-container{
+    margin: 3px 5px 2px 5px;
+    border: 3px solid white;
+    align-items: center;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-me-header{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 3px 3px 5px rgba(79, 76, 76, 0.5);
+}
+
+.phone, .email{
+    padding: 4px;
+    font-weight: 500;
 }
