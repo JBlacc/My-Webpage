@@ -1,19 +1,15 @@
-<<<<<<< HEAD
 MY Simple Personal Website
 =======
 My Simple Personal Website 
-
->>>>>>> afc16ae6e267714c5d0a5a758d38826d144916e0
 
 This is a basic website built using only HTML and CSS
 
 ![](images/read-me-screenshot.jpg)
 
-<<<<<<< HEAD
-=======
+
 
 ![](my-pics/pics/read-me-screenshot.jpg)
->>>>>>> afc16ae6e267714c5d0a5a758d38826d144916e0
+
 
 Summary
 
